@@ -68,6 +68,43 @@
   background-color: #2f80ed;
 }
 
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+  color: #000;
+}
+
+.two-columns__brief {
+  width: 175px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #2f80ed;
+  margin: 0;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  padding-bottom: 30px;
+}
+
+.two-columns__paragraph:last-child {
+  padding-bottom: 0;
+}
+
+.two-columns__span-accent {
+  font-weight: 500;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
