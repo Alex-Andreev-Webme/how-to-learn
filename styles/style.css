@@ -9,6 +9,11 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -16,8 +21,6 @@
   /* выше установили ограничения для секции */
   display: flex;
   position: relative;
-  margin: 0;
-  padding: 0;
 }
 
 .logo_place_header {
@@ -42,7 +45,6 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
-  margin: 0;
   z-index: 20;
 }
 
@@ -70,11 +72,6 @@
   background-color: #2f80ed;
 }
 
-.description {
-  margin: 0;
-  padding: 0;
-}
-
 .two-columns {
   width: 80%;
   display: flex;
@@ -89,7 +86,6 @@
   font-weight: 400;
   line-height: 1.2;
   color: #2f80ed;
-  margin: 0;
 }
 
 .two-columns__main-text {
@@ -121,7 +117,6 @@
 
 .section__title {
   width: 60%;
-  margin: 0;
   font-size: 60px;
   font-weight: 500;
   line-height: 1.15;
@@ -130,7 +125,6 @@
 
 .section__subtitle {
   width: 60%;
-  margin: 0;
   margin-top: 20px;
   font-size: 24px;
   font-weight: 400;
@@ -154,7 +148,6 @@
 }
 
 .table__heading {
-  margin: 0;
   font-size: 24px;
   font-weight: 500;
   line-height: 1.15;
@@ -279,7 +272,6 @@
 }
 
 .footer__column-heading {
-  margin: 0;
   margin-bottom: 20px;
   font-size: 18px;
   font-weight: 500;
