@@ -16,6 +16,8 @@
   /* выше установили ограничения для секции */
   display: flex;
   position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 .logo_place_header {
@@ -66,6 +68,11 @@
   top: 64px;
   right: 0;
   background-color: #2f80ed;
+}
+
+.description {
+  margin: 0;
+  padding: 0;
 }
 
 .two-columns {
@@ -237,4 +244,61 @@
   position: absolute;
   top: -5px;
   right: -210px;
+}
+
+.footer {
+  min-height: 350px; 
+  background-color: #1f1f1f;
+  color: #fff;
+  display: flex;
+}
+
+.footer__columns {
+  width: 90%;
+  margin: 60px auto 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.logo_place_footer {
+  align-self: flex-start;
+}
+
+.footer__author {
+  margin: 18px 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.footer__column-heading {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.footer__column-link {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
