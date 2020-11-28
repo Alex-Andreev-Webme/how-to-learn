@@ -239,7 +239,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .footer {
-  min-height: 350px; 
+  min-height: 350px;
   background-color: #1f1f1f;
   color: #fff;
   display: flex;
