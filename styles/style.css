@@ -9,20 +9,18 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6,p {
-  margin: 0;
-  padding: 0;
-}
-
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
   display: flex;
   position: relative;
 }
 
 .logo_place_header {
+  width: 183px;
+  height: 32px;
   position: absolute;
   top: 30px;
   left: 64px;
@@ -39,6 +37,8 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .header__subtitle {
+  margin: 0;
+  padding: 0;
   width: 398px;
   position: absolute;
   bottom: 30px;
@@ -81,6 +81,8 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .two-columns__brief {
+  margin: 0;
+  padding: 0;
   width: 175px;
   font-size: 18px;
   font-weight: 400;
@@ -94,6 +96,8 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .two-columns__paragraph {
+  margin: 0;
+  padding: 0;
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
@@ -115,7 +119,9 @@ h1,h2,h3,h4,h5,h6,p {
   margin: 100px auto;
 }
 
-.section__title {
+.section-title {
+  margin: 0;
+  padding: 0;
   width: 60%;
   font-size: 60px;
   font-weight: 700;
@@ -123,7 +129,9 @@ h1,h2,h3,h4,h5,h6,p {
   text-align: center;
 }
 
-.section__subtitle {
+.section-subtitle {
+  margin: 0;
+  padding: 0;
   width: 60%;
   margin-top: 20px;
   font-size: 24px;
@@ -147,12 +155,16 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .table__heading {
+  margin: 0;
+  padding: 0;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.15;
 }
 
 .table__text {
+  margin: 0;
+  padding: 0;
   margin-top: 20px;
   font-size: 18px;
   font-weight: 400;
@@ -196,6 +208,8 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .kaufman {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -206,13 +220,13 @@ h1,h2,h3,h4,h5,h6,p {
   overflow: hidden;
 }
 
-.section__title_theme_dark {
+.section-title_theme_dark {
   color: #fff;
   margin-top: 90px;
   z-index: 10;
 }
 
-.section__subtitle_theme_dark {
+.section-subtitle_theme_dark {
   color: #fff;
   z-index: 10;
 }
@@ -226,13 +240,14 @@ h1,h2,h3,h4,h5,h6,p {
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  border: 1px solid red;
 }
 
 .kaufman__triangle {
   width: 877px;
   height: 877px;
   position: absolute;
-  top: -5px;
+  top: 0;
   right: -210px;
 }
 
@@ -258,10 +273,14 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .logo_place_footer {
+  width: 183px;
+  height: 35px;
   align-self: flex-start;
 }
 
 .footer__author {
+  margin: 0;
+  padding: 0;
   margin: 18px 0;
   font-size: 18px;
   font-weight: 400;
@@ -269,10 +288,17 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .footer__column-heading {
+  margin: 0;
+  padding: 0;
   margin-bottom: 20px;
   font-size: 18px;
   font-weight: 700;
   line-height: 30px;
+}
+
+.footer__column-links {
+  list-style: none;
+  padding-left: 0;
 }
 
 .footer__column-link {
