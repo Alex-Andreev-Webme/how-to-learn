@@ -18,8 +18,11 @@
   position: relative;
 }
 
-.logo_place_header {
+.logo {
   width: 183px;
+}
+
+.logo_place_header {
   height: 32px;
   position: absolute;
   top: 30px;
@@ -246,9 +249,9 @@
   height: 877px;
   position: absolute;
   top: 0;
-  right: 0;
-  object-fit: contain;
-  object-position: 210px -8px;
+  right: -210px;
+  background-image: url('../images/kaufman-triangle.svg');
+  background-size: cover;
 }
 
 .footer {
@@ -273,7 +276,6 @@
 }
 
 .logo_place_footer {
-  width: 183px;
   height: 35px;
   align-self: flex-start;
 }
@@ -307,7 +309,7 @@
   font-weight: 400;
   line-height: 30px;
   text-decoration: none;
-  margin-bottom: 16px;
+  margin-bottom: 0;
 }
 
 .footer__social-icon {
