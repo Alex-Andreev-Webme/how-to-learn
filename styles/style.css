@@ -23,8 +23,8 @@
 }
 
 .link-hover:hover {
-  opacity: 0.5;
-  transition: 0.3s;
+  opacity: 0.6;
+  transition: 0.2s;
 }
 
 .header {
@@ -310,15 +310,15 @@
 }
 
 .khan {
-  display: flex;
-  flex-direction: column;
+  margin: 0;
+  padding: 0;
   padding-top: 105px;
   background-color: #f2f2f2;
 }
 
 .khan__container {
   width: 80%;
-  align-self: center;
+  margin: 0 auto;
 }
 
 .khan__author {
@@ -331,8 +331,8 @@
 .khan__title {
   margin: 0;
   font-size: 60px;
+  font-weight: 700;
   line-height: 1.15;
-  font-weight: 700; 
 }
 
 .khan__quote {
@@ -345,21 +345,21 @@
 
 .khan__quote-author {
   margin: 0;
-  margin-bottom: 10px;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.15;
 }
 
 .khan__quote-author-subline {
-  margin: 0;
+  margin: 10px 0 68px 0;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.15;
 }
 
 .khan__book-container {
-  margin-top: 68px;
+  display: flex;
+  align-items: flex-start;
 }
 
 .khan__book-pic {
@@ -367,16 +367,15 @@
   height: 608px;
   object-fit: cover;
   object-position: left top;
+  margin-right: 48px;
 }
 
 .khan__buy-link {
-  vertical-align: top;
-  margin-left: 48px;
   font-size: 30px;
   font-weight: 400;
   line-height: 42px;
-  text-decoration: none;
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .kaufman {
